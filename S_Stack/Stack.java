@@ -17,7 +17,9 @@ public class Stack<T> {
     public void push( T newElement ) {
         list.add(newElement); 
     }
-
+    public int size (){
+        return list.size();
+    }
     public T pop() {
         int size = list.size();
         if (size==0) return null;

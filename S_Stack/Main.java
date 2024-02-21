@@ -8,11 +8,9 @@ package S_Stack;
 public class Main {
 
     public static void main( String[] args ) {
-        Stack<String> s = new Stack<>();
-        s.push("Juve");
-        s.push("Inter");
-        System.out.println(s.pop());
-        System.out.println(s);
+       LetturaFile lF= new LetturaFile();
+       lF.Leggi_file( "fileinput.txt", "fileoutput.txt");
+       
     }
 
 }
