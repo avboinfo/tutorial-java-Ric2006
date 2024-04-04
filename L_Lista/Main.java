@@ -9,10 +9,10 @@ public class Main {
         System.out.println( l );
 
         for (int i=0; i<10; i++) {
-            l.add( new Nodo( i, null ));
+            l.add()
         }
-       l.addHead(new Nodo(2024, null));
-        System.out.println( l );
+      // l.addHe(new Nodo(2024, null));
+        //System.out.println( l );
     } 
 
 }
